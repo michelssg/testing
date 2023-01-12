@@ -1,0 +1,217 @@
+<!DOCTYPE html><!-- document type declaration informs web browsers which version of HTML is being used and is placed at the very beginning of the HTML document-->
+<html lang = 'en'> <!-- signifies the beginning of the document -->
+    <head> <!-- is not displayed on the web page itself -->
+        <meta charset="utf-8"> <!-- character encoding of the page -->
+        <title>Styles Conference</title> <!-- title (which is displayed on the title bar in the browser window) -->
+        <script src="https://kit.fontawesome.com/2a1099c6bb.js" crossorigin="anonymous"></script>
+    </head>
+    <body> <!-- displayed on page -->
+
+        <section>
+            <h2>Indice</h2>
+            <a href="#lists">Listas</a><br>
+            <a href="#images">Images</a><br>
+            <a href="#videos">Videos</a><br>
+            <a href="#audios">Audios</a><br>
+            <a href="#tables">Tables</a><br>
+            <a href = "bandeiranacionalbrasil_.jpg">My flag</a> chews socks.
+            <a href="mailto:shay@awesome.com?subject=Reaching%20Out&body=How%20are%20you">Email Me</a><br>
+            <a href="https://twitter.com/" aria-label="Twitter">  <i class="fa-brands fa-twitter"></i></a>
+            <a href = "http://www.umich.edu"></a><br>
+            <hr>
+            <address>Rua santo amaro 90; Bairro Vila Amélia; Ribeirão Preto - São Paulo(SP)</address>
+            <hr>
+            <blockquote><cite> "A vingança nunca é plena, mata a alma e a envenena"</cite> Madruga, Seu</blockquote>
+            <hr>
+            <details>
+                <summary>The Summary</summary>
+                Lorem ipsum bla bla bla bla bla bla
+            </details>
+  
+        </section>
+
+        <header>
+            <h1><a href="index.html">Styles Conference</a></h1>
+            <h3>August 24&ndash;26th &mdash; Chicago, IL</h3>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="speakers.html">Speakers</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="venue.html">Venue</a>
+                <a href="register.html">Register</a>
+            </nav>
+        </header>
+
+        <section id="#lists">
+            <h2>Lists</h2>
+            <h3>Ordened</h3>
+            <ol reversed>
+                <li>um</li>
+                <li value = "5">dois</li>
+                <li>três</li>
+                <h1>oioioi</h1>
+            </ol>
+            <h3>Unordened</h3>
+            <ul reversed>
+                <li>um</li>
+                <li>dois</li>
+                <li>três</li>
+            </ul>
+            <ol>		
+                <li>Vegetables</li>	
+                <li>Fruit
+                   <ul>				
+                      <li>Blueberries</li>
+                  <li>Bananas</li>
+                   </ul>
+                </li>
+            </ol>
+
+
+        </section>
+
+        <section id = "images">
+            <h2>Images</h2>
+            <img src="bandeiranacionalbrasil_.jpg" alt = "brasil flag" width= "500"><br>
+            <img src="bandeiranacionalbrasil_.jpg" alt = "brasil flag" width="250"><br>
+            <img src="bandeiranacionalbrasil_.jpg" alt = "brasil flag" width="125" height="100"><br>      
+            <img src="bandeiranacionalbrasil_.jpg" alt = "brasil flag" width="50%"><br>
+        </section>
+
+        <section id = "videos">
+            <h2>Videos</h2>
+            <video src = "amoedo.mp4" width = "50%" controls>
+                Your browser does not suport the <code>video</code> element
+            </video><br>
+        </section>
+
+        <section id = "audios">
+            <h2>Audio</h2>
+            <audio src = "mario.mp3" autoplay controls="">Mario World atlethic theme pal </audio><br>
+        </section>
+
+        <section id = "tables">
+            <h2>Tables</h2>
+            <h3>Simple table</h3>
+            <table>
+                <tr>
+                    <td>one</td><td>two</td><td>three</td>
+                </tr>
+                <tr>
+                    <td>four</td><td>five</td><td>six</td>
+                </tr>
+                <tr>
+                    <td>seven</td><td>eight</td><td>nine</td>
+                </tr>
+            </table>
+            <h3>Table with heading(bold not semantic)</h3>
+            <table>
+                <tr>
+                    <th>row one</th><th>row two</th><th>row three</th>
+                </tr>
+                <tr>
+                    <td>one</td><td>two</td><td>three</td>
+                </tr>
+                <tr>
+                    <td>four</td><td>five</td><td>six</td>
+                </tr>
+                <tr>
+                    <td>seven</td><td>eight</td><td>nine</td>
+                </tr>
+            </table>
+            <h3>Table with heading and visual divisions(not stylishing)</h3>
+            <table border = "2">
+                <tr>
+                    <th>row one</th><th>row two</th><th>row three</th>
+                </tr>
+                <tr>
+                    <td>one</td><td>two</td><td>three</td>
+                </tr>
+                <tr>
+                    <td>four</td><td>five</td><td>six</td>
+                </tr>
+                <tr>
+                    <td>seven</td><td>eight</td><td>nine</td>
+                </tr>
+            </table>
+            <h3>Avoid the use of h1-h6 to name tables, use 'caption' tag instead</h3>
+            <table border="1">
+                <caption>TABLE 4: Table with heading and visual divisions(not stylishing)</caption>
+                <tr>
+                    <th>Child name</th><th>Parents names</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">kid name</td><td>mother name</td>
+                </tr>
+                <tr>
+                    <td>father name</td>
+                </tr>
+                <tr>
+                    <td>Child 2 name</td><td>mother name</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">kid 2 name</td><td>mother name</td>
+                </tr>
+                <tr>
+                    <td>father name</td>
+                </tr>
+
+            </table>
+
+            <table>
+                <tr><th>Name</th><td>Colleen</td></tr>
+                <tr><th>Age</th><td>26</td></tr>
+                <tr><th>Team</th><td>Browns</td></tr>
+              </table>
+
+        </section>
+
+        <section>
+            <h2>Dedicated to the Craft of Building Websites</h2>
+            <p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
+            <a href="register.html">Register Now</a>
+        </section>
+
+        <section>
+
+            <h2>Topics</h2>
+
+            <section>
+                <a href = "speakers.html">
+                    <h5>Speakers</h5>
+                    <h3>World-Class Speakers</h3>
+                </a>
+                <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+            </section>
+            
+            <section>
+                <a href = "schedule.html">
+                    <h5>Schedule</h5>
+                    <h3>Three inspiring days</h3>
+                </a>
+                <p>Enjoy three inspiring days and action-packed days of talks, gatherings, and all around good times</p>
+            </section>
+
+            <section>
+                <a href = "venue.html">
+                    <h5>Venue</h5>
+                    <h3>The Chicago Theatre</h3>
+                </a>
+                <P>Withing the heart of the downtown Chicago, the Chicago theatre will provide a beatful conference venue </P>
+            </section>
+
+        </section>
+
+        <footer>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="speakers.html">Speakers</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="venue.html">Venue</a>
+                <a href="register.html">Register</a>
+            </nav>
+
+            <small>&copy; Styles Conference</small>
+        </footer>
+    </body>
+</html>
